@@ -1,4 +1,4 @@
-package com.frame.msoauth.services;
+package com.frame.msoauth.adapter.persistence;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,8 +8,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.frame.msoauth.entities.User;
-import com.frame.msoauth.feignclients.UserFeignClient;
+import com.frame.msoauth.adapter.application.feignclients.UserFeignClient;
+import com.frame.msoauth.model.entities.User;
 
 
 @Service

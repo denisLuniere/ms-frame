@@ -1,4 +1,4 @@
-package com.frame.msoauth.config;
+package com.frame.msoauth.model.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

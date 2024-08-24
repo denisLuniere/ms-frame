@@ -1,4 +1,4 @@
-package com.frame.msoauth.entities;
+package com.frame.msoauth.model.entities;
 
 import java.io.Serializable;
 

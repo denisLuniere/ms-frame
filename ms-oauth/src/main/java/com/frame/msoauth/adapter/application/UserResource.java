@@ -1,4 +1,4 @@
-package com.frame.msoauth.resources;
+package com.frame.msoauth.adapter.application;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.frame.msoauth.entities.User;
-import com.frame.msoauth.services.UserService;
+import com.frame.msoauth.adapter.persistence.UserService;
+import com.frame.msoauth.model.entities.User;
 
 @RestController
 @RequestMapping(value = "/users")
